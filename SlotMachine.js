@@ -1,5 +1,6 @@
 const SlotMachineFactory = function(element) {
     let root = null
+    let container = null
     const items = ["apple", "banana", "kiwi", "pineapple", "strawberry", "watermelon", "avocado","lemon"]
     let firstSlot = null
     let secondSlot = null
@@ -27,6 +28,7 @@ const SlotMachineFactory = function(element) {
 
     if(element != "") {
         root = document.getElementById(element)
+        container = document.getElementById("container")
         root.className = "slot-machine"
         slotsWrap = document.createElement("div")
         slotsWrap.className = "slots-wrap"
@@ -45,9 +47,9 @@ const SlotMachineFactory = function(element) {
         result = document.createElement("div")
         result.id = "result"
         root.appendChild(itemsWrap)
-        root.appendChild(playBtn)
+        container.appendChild(playBtn)
         itemsWrap.appendChild(slotsWrap)
-        itemsWrap.appendChild(result)
+        container.appendChild(result)
         slotsWrap.appendChild(firstSlot)
         slotsWrap.appendChild(secondSlot)
         slotsWrap.appendChild(thirdSlot)
