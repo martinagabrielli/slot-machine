@@ -207,100 +207,74 @@
     body {
         background: rgb(247, 197, 131);
         #container {
-            display: block;
-            width: 1500px;
-            margin: auto;
-            position: relative;
+            width: 1200px;
+            background-size: 70%;
+            background-position: 190px 10px;
             .slot-machine-img {
                 position: absolute;
                 left: 40px;
                 top: 60px;
             }
             #place-holder {
-                width: 70%;
-                height: 800px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                width: 60%;
+                height: 550px;
                 .items-wrap {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: space-between;
-                    width: 50%;
-                    height: 40%;
+                    width: 70%;
+                    height: 50%;
+                    margin-right: 60px;
                     .slots-wrap {
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
+                        width: 90%;
+                        height: 100%;
+                        margin: 0;
                         .first-slot, .second-slot, .third-slot {
-                            // border: 1px solid #000000;
                             width: 150px;
-                            height: 150px;
                             &.pineapple {
-                                background: url(img/pineapple.svg) no-repeat;
                                 background-size: 120px;
-                                background-position: 12px 25px;
+                                background-position: 8px 50px;
                             }
                             &.apple {
-                                background: url(img/apple.svg) no-repeat;
-                                background-size: 90px;
-                                background-position: 20px 45px;
+                                background-size: 80px;
+                                background-position: 33px 78px;
                             }
                             &.avocado {
-                                background: url(img/avocado.svg) no-repeat;
-                                background-size: 110px;
-                                background-position: 8px 40px;
+                                background-size: 90px;
+                                background-position: 30px 73px;
                             }
                             &.banana {
-                                background: url(img/banana.svg) no-repeat;
-                                background-size: 120px;
-                                background-position: 8px 30px;
+                                background-size: 110px;
+                                background-position: 12px 57px;
                             }
                             &.kiwi {
-                                background: url(img/kiwi.svg) no-repeat;
-                                background-size: 90px;
-                                background-position: 30px 50px;
+                                background-size: 80px;
+                                background-position: 33px 78px;
                             }
                             &.lemon {
-                                background: url(img/lemon.svg) no-repeat;
-                                background-size: 90px;
-                                background-position: 15px 45px;
+                                background-size: 80px;
+                                background-position: 27px 75px;
                             }
                             &.strawberry {
-                                background: url(img/strawberry.svg) no-repeat;
-                                background-size: 90px;
-                                background-position: 22px 45px;
+                                background-size: 80px;
+                                background-position: 37px 75px;
                             }
                             &.watermelon {
-                                background: url(img/watermelon.svg) no-repeat;
-                                background-size: 100px;
-                                background-position: 15px 45px;
+                                background-size: 90px;
+                                background-position: 25px 70px;
                             }
                         }
                     }
-                    #result {
-                        width: 220px;
-                        height: 60px;
-                        font-size: 50px;
-                        text-align: center;
-                    }
                 }
-                #play-btn {
-                    background: none;
-                    border: none;
-                    font-size: 20px;
-                    z-index: 9;
-                    position: absolute;
-                    top: 285px;
-                    right: 645px;
-                    color: #faea3b;
-                    text-transform: uppercase;
-                    cursor: pointer;
-                    &:focus {
-                        outline: none;
-                    }
-                }
+            }
+            #play-btn {
+                font-size: 22px;
+                bottom: 382px;
+                left: 864px;
+            }
+            #result {
+                width: 200px;
+                height: 70px;
+                bottom: 480px;
+                left: 473px;
+                line-height: 70px;
             }
         }
     }

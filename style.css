@@ -213,10 +213,9 @@
     background: #f7c583;
   }
   body #container {
-    display: block;
-    width: 1500px;
-    margin: auto;
-    position: relative;
+    width: 1200px;
+    background-size: 70%;
+    background-position: 190px 10px;
   }
   body #container .slot-machine-img {
     position: absolute;
@@ -224,110 +223,65 @@
     top: 60px;
   }
   body #container #place-holder {
-    width: 70%;
-    height: 800px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    width: 60%;
+    height: 550px;
   }
   body #container #place-holder .items-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    width: 50%;
-    height: 40%;
+    width: 70%;
+    height: 50%;
+    margin-right: 60px;
   }
   body #container #place-holder .items-wrap .slots-wrap {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    width: 90%;
+    height: 100%;
+    margin: 0;
   }
   body #container #place-holder .items-wrap .slots-wrap .first-slot, body #container #place-holder .items-wrap .slots-wrap .second-slot, body #container #place-holder .items-wrap .slots-wrap .third-slot {
     width: 150px;
-    height: 150px;
   }
   body #container #place-holder .items-wrap .slots-wrap .first-slot.pineapple, body #container #place-holder .items-wrap .slots-wrap .second-slot.pineapple, body #container #place-holder .items-wrap .slots-wrap .third-slot.pineapple {
-    background: url(img/pineapple.svg) no-repeat;
     background-size: 120px;
-    background-position: 12px 25px;
+    background-position: 8px 50px;
   }
   body #container #place-holder .items-wrap .slots-wrap .first-slot.apple, body #container #place-holder .items-wrap .slots-wrap .second-slot.apple, body #container #place-holder .items-wrap .slots-wrap .third-slot.apple {
-    background: url(img/apple.svg) no-repeat;
-    background-size: 90px;
-    background-position: 20px 45px;
+    background-size: 80px;
+    background-position: 33px 78px;
   }
   body #container #place-holder .items-wrap .slots-wrap .first-slot.avocado, body #container #place-holder .items-wrap .slots-wrap .second-slot.avocado, body #container #place-holder .items-wrap .slots-wrap .third-slot.avocado {
-    background: url(img/avocado.svg) no-repeat;
-    background-size: 110px;
-    background-position: 8px 40px;
+    background-size: 90px;
+    background-position: 30px 73px;
   }
   body #container #place-holder .items-wrap .slots-wrap .first-slot.banana, body #container #place-holder .items-wrap .slots-wrap .second-slot.banana, body #container #place-holder .items-wrap .slots-wrap .third-slot.banana {
-    background: url(img/banana.svg) no-repeat;
-    background-size: 120px;
-    background-position: 8px 30px;
+    background-size: 110px;
+    background-position: 12px 57px;
   }
   body #container #place-holder .items-wrap .slots-wrap .first-slot.kiwi, body #container #place-holder .items-wrap .slots-wrap .second-slot.kiwi, body #container #place-holder .items-wrap .slots-wrap .third-slot.kiwi {
-    background: url(img/kiwi.svg) no-repeat;
-    background-size: 90px;
-    background-position: 30px 50px;
+    background-size: 80px;
+    background-position: 33px 78px;
   }
   body #container #place-holder .items-wrap .slots-wrap .first-slot.lemon, body #container #place-holder .items-wrap .slots-wrap .second-slot.lemon, body #container #place-holder .items-wrap .slots-wrap .third-slot.lemon {
-    background: url(img/lemon.svg) no-repeat;
-    background-size: 90px;
-    background-position: 15px 45px;
+    background-size: 80px;
+    background-position: 27px 75px;
   }
   body #container #place-holder .items-wrap .slots-wrap .first-slot.strawberry, body #container #place-holder .items-wrap .slots-wrap .second-slot.strawberry, body #container #place-holder .items-wrap .slots-wrap .third-slot.strawberry {
-    background: url(img/strawberry.svg) no-repeat;
-    background-size: 90px;
-    background-position: 22px 45px;
+    background-size: 80px;
+    background-position: 37px 75px;
   }
   body #container #place-holder .items-wrap .slots-wrap .first-slot.watermelon, body #container #place-holder .items-wrap .slots-wrap .second-slot.watermelon, body #container #place-holder .items-wrap .slots-wrap .third-slot.watermelon {
-    background: url(img/watermelon.svg) no-repeat;
-    background-size: 100px;
-    background-position: 15px 45px;
+    background-size: 90px;
+    background-position: 25px 70px;
   }
-  body #container #place-holder .items-wrap #result {
-    width: 220px;
-    height: 60px;
-    font-size: 50px;
-    text-align: center;
+  body #container #play-btn {
+    font-size: 22px;
+    bottom: 382px;
+    left: 864px;
   }
-  body #container #place-holder #play-btn {
-    background: none;
-    border: none;
-    font-size: 20px;
-    z-index: 9;
-    position: absolute;
-    top: 285px;
-    right: 645px;
-    color: #faea3b;
-    text-transform: uppercase;
-    cursor: pointer;
-  }
-  body #container #place-holder #play-btn:focus {
-    outline: none;
+  body #container #result {
+    width: 200px;
+    height: 70px;
+    bottom: 480px;
+    left: 473px;
+    line-height: 70px;
   }
 }
 /*# sourceMappingURL=style.css.map */
