@@ -27,7 +27,7 @@
                 margin: auto;
             }
             #place-holder {
-                // border: 1px solid blue;
+                border: 1px solid blue;
                 display: flex;
                 align-items: center;
                 width: 100%;
@@ -38,21 +38,20 @@
                 justify-content: center;
                 .items-wrap {
                     width: 80%;
-                    // border: 5px solid red;
+                    border: 5px solid red;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     height: 80%;
-                    // margin: 20px;
                     .slots-wrap {
-                        // border: 1px solid yellow;
+                        border: 1px solid yellow;
                         display: flex;
                         justify-content: space-around;
                         width: 60%;
                         height: 130px;
                         margin-top: 90px;
                         .first-slot, .second-slot, .third-slot {
-                            // border: 2px solid green;
+                            border: 2px solid green;
                             width: 90px;
                             height: 100%;
                             &.pineapple {
@@ -104,7 +103,7 @@
                 height: 50px;
                 font-size: 30px;
                 text-align: center;
-                // border: 1px solid purple;
+                border: 1px solid purple;
                 margin: 15px 0 0 10px;
                 position: relative;
                 bottom: 255px;
@@ -135,67 +134,68 @@
     body {
         background: lightgreen;
         #container {
-
+            width: 710px;
+            background-size: 700px;
+            background-position: 30px 10px;
             .slot-machine-img {
 
             }
             #place-holder {
-
+                height: 470px;
+                width: 90%;
                 .items-wrap {
 
                     .slots-wrap {
-
+                        width: 70%;
+                        height: 200px;
+                        margin-top: 130px;
+                        margin-right: 20px;
                         .first-slot, .second-slot, .third-slot {
-
+                            width: 110px;
                             &.pineapple {
-                                background: url(img/pineapple.svg) no-repeat;
-                                background-size: 120px;
-                                background-position: 12px 25px;
+                                background-size: 110px;
+                                background-position: 0 35px;
                             }
                             &.apple {
-                                background: url(img/apple.svg) no-repeat;
-                                background-size: 90px;
-                                background-position: 20px 45px;
+                                background-size: 70px;
+                                background-position: 18px 65px;
                             }
                             &.avocado {
-                                background: url(img/avocado.svg) no-repeat;
-                                background-size: 110px;
-                                background-position: 8px 40px;
+                                background-size: 80px;
+                                background-position: 15px 65px;
                             }
                             &.banana {
-                                background: url(img/banana.svg) no-repeat;
-                                background-size: 120px;
-                                background-position: 8px 30px;
+                                background-size: 110px;
+                                background-position: 0 40px;
                             }
                             &.kiwi {
-                                background: url(img/kiwi.svg) no-repeat;
-                                background-size: 90px;
-                                background-position: 30px 50px;
+                                background-size: 70px;
+                                background-position: 23px 70px;
                             }
                             &.lemon {
-                                background: url(img/lemon.svg) no-repeat;
-                                background-size: 90px;
-                                background-position: 15px 45px;
+                                background-size: 65px;
+                                background-position: 18px 70px;
                             }
                             &.strawberry {
-                                background: url(img/strawberry.svg) no-repeat;
-                                background-size: 90px;
-                                background-position: 22px 45px;
+                                background-size: 78px;
+                                background-position: 22px 58px;
                             }
                             &.watermelon {
-                                background: url(img/watermelon.svg) no-repeat;
-                                background-size: 100px;
-                                background-position: 15px 45px;
+                                background-size: 80px;
+                                background-position: 15px 62px;
                             }
                         }
                     }
-                    #result {
-
-                    }
                 }
-                #play-btn {
-
-                }
+            }
+            #play-btn {
+                font-size: 18px;
+                bottom: 328px;
+                left: 592px;
+            }
+            #result {
+                bottom: 400px;
+                left: 270px;
             }
         }
     }
